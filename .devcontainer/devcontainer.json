@@ -1,6 +1,6 @@
 {
     "name": "Airflow Aula",
-    "image": "mcr.microsoft.com/devcontainer/python3.11",
+    "image": "mcr.microsoft.com/devcontainer/python:3.11",
 
     "containerEnv": {
         "FORWARDED_ALLOW_IPS": "*",
