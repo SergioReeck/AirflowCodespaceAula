@@ -1,0 +1,5 @@
+Iniciar Airflow Web: airflow standalone
+-
+Gerar usuário e senha: cat ~/airflow/simple_auth_manager_password.json.generated
+-
+Mostra o local das dags: airflow config get-value core dags_folder
