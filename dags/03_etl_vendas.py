@@ -26,9 +26,9 @@ sys.path.append(str(SRC_PATH))
 # IMPORTAÇÃO DAS FUNÇÕES
 # ============================================================
 
-from projetos.etl_vendas.src.extract import extract
-from projetos.etl_vendas.src.transform import transform
-from projetos.etl_vendas.src.load import load
+from extract import extract
+from transform import transform
+from load import load
 
 
 # ============================================================
